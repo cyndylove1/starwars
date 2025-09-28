@@ -1,0 +1,19 @@
+:root {
+  --main: #0a74dc;
+  --navyBlue: #031434;
+  --gray: #B0B9C8;
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./assets/fonts/Inter-Regular.woff") format("woff"),
+    url("./assets/fonts/Inter-Regular.woff") format("woff"),
+    url("./assets/fonts/Inter-Regular.woff") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+body{
+  font-family:'Inter-Black', sans-serif ;
+}
