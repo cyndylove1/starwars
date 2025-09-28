@@ -15,11 +15,11 @@ export default function PeopleDetails() {
      enabled: !!id,
    });
 
-   if (isLoading) return <div className="pt-6">Loading people details...</div>;
-   if (isError) return <div>Failed to load people details.</div>;
+   if (isLoading) return <div className="pt-6 px-4">Loading people details...</div>;
+   if (isError) return <div className="pt-6 px-4">Failed to load people details.</div>;
   return (
     <>
-      <div className="pt-8 flex items-start md:gap-10 gap-6 mb-20 mx-4 lg:mx-0">
+      <div className="pt-8 flex items-start md:gap-10 gap-6 mb-20 mx-4">
         {/* image */}
         <div>
           <PeopleImage />

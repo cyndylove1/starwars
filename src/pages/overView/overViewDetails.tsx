@@ -17,11 +17,11 @@ export default function OverViewDetails() {
     enabled: !!id,
   });
 
-  if (isLoading) return <div className="pt-6">Loading film details...</div>;
-  if (isError) return <div>Failed to load film details.</div>;
+  if (isLoading) return <div className="pt-6 px-4">Loading film details...</div>;
+  if (isError) return <div className="pt-6 px-4">Failed to load film details.</div>;
 
   return (
-    <div className="pt-8 flex items-start md:gap-10 gap-6 mb-20 mx-4 lg:mx-0">
+    <div className="pt-8 flex items-start md:gap-10 gap-6 mb-20 mx-4">
       {/* image */}
       <OverViewImage />
       <div className="md:pt-10 pt-2">
