@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import { sidebarItems } from "../../../sidebarData";
+import { sidebarItems } from "../../sidebarData";
 import Logo from "../logo/logo";
 
 interface MobileSidebarProps {

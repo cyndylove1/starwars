@@ -1,6 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-
 import { type JSX } from "react";
 
 export interface SidebarItem {

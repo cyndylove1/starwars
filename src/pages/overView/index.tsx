@@ -1,4 +1,4 @@
-import { statsData } from "../../../statsData";
+import { statsData } from "../../statsData";
 import FilmTable from "../../components/tables/filmTable";
 // import FilmTable from "../"
 export default function OverView() {

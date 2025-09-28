@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import { sidebarItems } from "../../../sidebarData";
+import { sidebarItems } from "../../sidebarData";
 import SidebarLogo from "../logo/SidebarLogo";
 
 export default function DesktopSidebar() {
@@ -9,7 +9,7 @@ export default function DesktopSidebar() {
         {/* Logo */}
         <div className="py-6 flex justify-center">
           {/* <MobileLogo /> */}
-          <SidebarLogo/>
+          <SidebarLogo />
         </div>
 
         {/* Navigation Items */}
