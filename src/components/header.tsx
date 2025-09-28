@@ -11,7 +11,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
   const showBackArrow = /\/details\/[^/]+$/.test(location.pathname);
 
   return (
-    <div className="flex justify-between items-center bg-white h-[64px] px-4 shadow-md">
+    <div className="flex justify-between items-center bg-white h-[64px] px-5 shadow-md">
       <div className="flex items-center gap-[10px]">
         {/* back arrow */}
         <div className="text-[10px]">{showBackArrow && <BackArrow  />}</div>
