@@ -23,9 +23,14 @@ export default function OverViewDetails() {
   return (
     <div className="pt-8 flex items-start md:gap-10 gap-6 mb-20 mx-4">
       {/* image */}
-      <OverViewImage />
+      <div>
+        <OverViewImage />
+      </div>
+
       <div className="md:pt-10 pt-2">
-        <h2 className="md:text-[48px] text-md font-[700] md:leading-[45px] leading-[20px]">{film.title}</h2>
+        <h2 className="md:text-[48px] text-md font-[700] md:leading-[45px] leading-[20px]">
+          {film.title}
+        </h2>
         <h5 className="md:pt-6 pt-2 md:text-[16px] text-[11px] font-[500] leading-[24px] text-[#303B54]">
           Director: {film.director}
         </h5>

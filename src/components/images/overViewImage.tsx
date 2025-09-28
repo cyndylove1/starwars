@@ -2,7 +2,7 @@ export default function OverViewImage() {
     return (
       <>
         <svg
-          className="md:w-[318px] lg:h-[450px] w-full h-full"
+          className="w-full h-full"
           viewBox="0 0 318 450"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

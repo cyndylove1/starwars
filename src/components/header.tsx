@@ -11,7 +11,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
   const showBackArrow = /\/details\/[^/]+$/.test(location.pathname);
 
   return (
-    <div className="flex justify-between items-center bg-white h-[64px] px-6 shadow-md">
+    <div className="flex justify-between items-center bg-white h-[64px] px-4 shadow-md">
       <div className="flex items-center gap-[10px]">
         {/* back arrow */}
         <div className="text-[10px]">{showBackArrow && <BackArrow  />}</div>
@@ -26,7 +26,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
         {/* bell icon */}
         <span className="border-r-[1px] border-[#E5E5E5] px-5">
           <svg
-            className="md:w-[24px] md:h-[24px] w-[1px] h-[18px]"
+            className="md:w-[24px] md:h-[24px] w-[18px] h-[18px]"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

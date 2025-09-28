@@ -20,7 +20,7 @@ export default function SpeciesDetails() {
    if (isError) return <div className="pt-6 px-6">Failed to load species details.</div>;
   return (
     <>
-      <div className="pt-8 flex items-start md:gap-10 gap-6 mb-20 mx-4">
+      <div className="pt-8 flex md:gap-10 gap-6 mb-20 mx-4">
         {/* image */}
         <div>
           <SpeciesImage />
@@ -38,7 +38,7 @@ export default function SpeciesDetails() {
           <h3 className="md:text-[16px] text-[11px] font-[500] leading-[24px] text-[#303B54]">
             Eye Colors: {species.eye_colors}
           </h3>
-          <h4 className="md:text-[16px] text-[11 leading-[20px]px] font-[500] leading-[24px] text-[#303B54]">
+          <h4 className="md:text-[16px] text-[11px] leading-[20px]px] font-[500] leading-[24px] text-[#303B54]">
             Average Lifespan: {species.average_lifespan}
           </h4>
         </div>
