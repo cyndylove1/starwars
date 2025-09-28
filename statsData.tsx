@@ -1,5 +1,3 @@
-import React from "react";
-
 export const statsData = [
   {
     id: 1,
