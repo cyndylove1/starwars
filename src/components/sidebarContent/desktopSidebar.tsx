@@ -11,7 +11,6 @@ export default function DesktopSidebar() {
           {/* <MobileLogo /> */}
           <SidebarLogo />
         </div>
-
         {/* Navigation Items */}
         <aside className="text-white">
           {sidebarItems.map((section) => (
