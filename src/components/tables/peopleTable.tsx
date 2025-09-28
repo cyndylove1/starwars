@@ -49,9 +49,13 @@ export default function PeopleTable() {
                   />
                 </TableCell>
                 <TableCell sx={{ fontSize: "12px" }}>Name</TableCell>
-                <TableCell sx={{ fontSize: "12px" }}>Birth year</TableCell>
+                <TableCell sx={{ fontSize: "12px", whiteSpace: "nowrap" }}>
+                  Birth year
+                </TableCell>
                 <TableCell sx={{ fontSize: "12px" }}>Gender</TableCell>
-                <TableCell sx={{ fontSize: "12px" }}>Hair Color</TableCell>
+                <TableCell sx={{ fontSize: "12px", whiteSpace: "nowrap" }}>
+                  Hair Color
+                </TableCell>
                 <TableCell sx={{ fontSize: "12px" }}>Height</TableCell>
                 <TableCell sx={{ fontSize: "12px" }}>Created</TableCell>
               </TableRow>
