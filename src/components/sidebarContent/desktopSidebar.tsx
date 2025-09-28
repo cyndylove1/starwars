@@ -7,7 +7,7 @@ export default function DesktopSidebar() {
     <>
       <div className="h-screen flex-col w-[250px] hidden lg:flex border-r-[1px] border-(--border) bg-[var(--navyBlue)] transition-all duration-300 lg:flex">
         {/* Logo */}
-        <div className="py-6 flex justify-center">
+        <div className="pt-6 pb-10 flex justify-center">
           {/* <MobileLogo /> */}
           <SidebarLogo />
         </div>
