@@ -6,7 +6,14 @@ import "./index.css";
 import "./App.css";
 import App from "./App.tsx";
 
-const queryClient = new QueryClient();
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5000,
+    },
+  },
+});
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
